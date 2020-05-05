@@ -7,7 +7,10 @@
 //             value : 5,
 //             next : {
 //                 value : 16,
-//                 next : null
+//                 next : {
+//                       value : 16,
+//                       next : null
+//                   }
 //             }
 //         }
 //     }
@@ -104,13 +107,13 @@ class LinkedList {
 
 const myLinkedList = new LinkedList(10);
 myLinkedList.prepend(45);
-myLinkedList.append(5);
-myLinkedList.append(2);
-myLinkedList.append(33);
-myLinkedList.insert(0,99);
-myLinkedList.printList();
-myLinkedList.remove(0);
-myLinkedList.remove(1);
-myLinkedList.remove(2);
-console.log(myLinkedList.remove(3));
+// myLinkedList.append(5);
+// myLinkedList.append(2);
+// myLinkedList.append(33);
+// myLinkedList.insert(0,99);
+// myLinkedList.printList();
+// myLinkedList.remove(0);
+// myLinkedList.remove(1);
+// myLinkedList.remove(2);
+// console.log(myLinkedList.remove(3));
 myLinkedList.printList();
